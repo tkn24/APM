@@ -12,11 +12,11 @@ namespace APM.Repository
         public void Send(string Subject, string Email, string Body)
         {
             // kimlik bilgileri
-            var credentials = new NetworkCredential("erdo992@gmail.com", "qozduyaactczzqtr");
+            var credentials = new NetworkCredential("*****@gmail.com", "password");
 
             var mail = new MailMessage()
             {
-                From = new MailAddress("erdo992@gmail.com"),
+                From = new MailAddress("*****@gmail.com"),
                 Subject = Subject,
                 Body = Body
             };
